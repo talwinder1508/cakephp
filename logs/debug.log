@@ -2098,3 +2098,138 @@ Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
 
 
 
+2015-11-09 19:57:38 Notice: Notice (8): Undefined index: pageCount in [C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\View\Helper\PaginatorHelper.php, line 668]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\View\Helper\PaginatorHelper::numbers() - CORE\src\View\Helper\PaginatorHelper.php, line 668
+include - APP/Template\Users\index.ctp, line 42
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 970
+Cake\View\View::_render() - CORE\src\View\View.php, line 930
+Cake\View\View::render() - CORE\src\View\View.php, line 578
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-11-09 19:57:38 Notice: Notice (8): Undefined index: pageCount in [C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\View\Helper\PaginatorHelper.php, line 589]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\View\Helper\PaginatorHelper::counter() - CORE\src\View\Helper\PaginatorHelper.php, line 589
+include - APP/Template\Users\index.ctp, line 45
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 970
+Cake\View\View::_render() - CORE\src\View\View.php, line 930
+Cake\View\View::render() - CORE\src\View\View.php, line 578
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-11-09 19:57:38 Notice: Notice (8): Undefined index: count in [C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\View\Helper\PaginatorHelper.php, line 593]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\View\Helper\PaginatorHelper::counter() - CORE\src\View\Helper\PaginatorHelper.php, line 593
+include - APP/Template\Users\index.ctp, line 45
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 970
+Cake\View\View::_render() - CORE\src\View\View.php, line 930
+Cake\View\View::render() - CORE\src\View\View.php, line 578
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-11-09 19:57:38 Notice: Notice (8): Undefined index: perPage in [C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\View\Helper\PaginatorHelper.php, line 596]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\View\Helper\PaginatorHelper::counter() - CORE\src\View\Helper\PaginatorHelper.php, line 596
+include - APP/Template\Users\index.ctp, line 45
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 970
+Cake\View\View::_render() - CORE\src\View\View.php, line 930
+Cake\View\View::render() - CORE\src\View\View.php, line 578
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-11-09 19:57:38 Notice: Notice (8): Undefined index: count in [C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\View\Helper\PaginatorHelper.php, line 597]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\View\Helper\PaginatorHelper::counter() - CORE\src\View\Helper\PaginatorHelper.php, line 597
+include - APP/Template\Users\index.ctp, line 45
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 970
+Cake\View\View::_render() - CORE\src\View\View.php, line 930
+Cake\View\View::render() - CORE\src\View\View.php, line 578
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-11-09 19:57:38 Notice: Notice (8): Undefined index: count in [C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\View\Helper\PaginatorHelper.php, line 598]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\View\Helper\PaginatorHelper::counter() - CORE\src\View\Helper\PaginatorHelper.php, line 598
+include - APP/Template\Users\index.ctp, line 45
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 970
+Cake\View\View::_render() - CORE\src\View\View.php, line 930
+Cake\View\View::render() - CORE\src\View\View.php, line 578
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-11-09 19:57:38 Notice: Notice (8): Undefined index: page in [C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\View\Helper\PaginatorHelper.php, line 611]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\View\Helper\PaginatorHelper::counter() - CORE\src\View\Helper\PaginatorHelper.php, line 611
+include - APP/Template\Users\index.ctp, line 45
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 970
+Cake\View\View::_render() - CORE\src\View\View.php, line 930
+Cake\View\View::render() - CORE\src\View\View.php, line 578
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-11-09 19:57:38 Notice: Notice (8): Undefined index: current in [C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\View\Helper\PaginatorHelper.php, line 613]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\View\Helper\PaginatorHelper::counter() - CORE\src\View\Helper\PaginatorHelper.php, line 613
+include - APP/Template\Users\index.ctp, line 45
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 970
+Cake\View\View::_render() - CORE\src\View\View.php, line 930
+Cake\View\View::render() - CORE\src\View\View.php, line 578
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-11-09 19:57:38 Notice: Notice (8): Undefined index: count in [C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\View\Helper\PaginatorHelper.php, line 614]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\View\Helper\PaginatorHelper::counter() - CORE\src\View\Helper\PaginatorHelper.php, line 614
+include - APP/Template\Users\index.ctp, line 45
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 970
+Cake\View\View::_render() - CORE\src\View\View.php, line 930
+Cake\View\View::render() - CORE\src\View\View.php, line 578
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+

@@ -45,11 +45,11 @@ class PizzaTable extends Table
             ->allowEmpty('id', 'create');
 
         $validator
-            ->allowEmpty('cust_name');
+            ->notEmpty('cust_name','Customer Name is required');
 
         $validator
             ->add('email', 'valid', ['rule' => 'email'])
-            ->allowEmpty('email');
+            ->notEmpty('email');
 
         $validator
             ->allowEmpty('telephone');

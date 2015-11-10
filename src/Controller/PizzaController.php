@@ -48,11 +48,14 @@ class PizzaController extends AppController
         $pizza = $this->Pizza->newEntity();
         if ($this->request->is('post')) {
             $pizza = $this->Pizza->patchEntity($pizza, $this->request->data);
+            
+            $pizza->user_id = $this->Auth->user('id');
+            
             if ($this->Pizza->save($pizza)) {
                 $this->Flash->success(__('The pizza has been saved.'));
                 return $this->redirect(['action' => 'index']);
             } else {
-                $this->Flash->error(__('The pizza could not be saved. Please, try again.'));
+                $this->Flash->error(__('Unable to place order'));
             }
         }
         $this->set(compact('pizza'));
@@ -102,4 +105,31 @@ class PizzaController extends AppController
         }
         return $this->redirect(['action' => 'index']);
     }
+    
+    
+    public function isAuthorized($user)
+    {
+        // All registered users can add articles
+        if ($this->request->action === 'add') {
+            return true;
+        }
+
+        // The owner of an article can edit and delete it
+        if (in_array($this->request->action, ['edit', 'delete'])) {
+            $pizzaId = (int)$this->request->params['pass'][0];
+            if ($this->Pizza->isOwnedBy($pizzaId, $user['id'])) {
+                return true;
+            }
+        }
+
+        return parent::isAuthorized($user);
+    }
+    
+
+    public function isOwnedBy($pizzaId, $userId)
+    {
+        return $this->exists(['id' => $pizzaId, 'user_id' => $userId]);
+    }
+    
+    
 }

@@ -67,6 +67,8 @@
       <ul class="nav navbar-nav navbar-right">
         <li><a href="users/login">Login</a></li>
         <li><a href="users/add">Register</a></li>
+          <li><a href="users/logout">Logout</a></li>
+          
       </ul>
     </div>
   </div>

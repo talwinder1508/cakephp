@@ -42,8 +42,9 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
         </ul>
         <section class="top-bar-section">
             <ul class="right">
-                <li><a target="_blank" href="localhost/cakephp/users/login">Login</a></li>
-                <li><a target="_blank" href="localhost/cakephp/users/add">Register</a></li>
+                <li><a href="users/login"></a></li>
+                <li><a href="users/add"></a></li>
+                <li><a href="users/logout">Logout</a></li>
             </ul>
         </section>
     </nav>

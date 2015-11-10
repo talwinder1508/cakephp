@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Theme Made By www.w3schools.com - No Copyright -->
   <title>Welcome</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -34,8 +33,8 @@
       color: #fff;
   }
   .container-fluid {
-      padding-top: 70px;
-      padding-bottom: 70px;
+      padding-top: 20px;
+      padding-bottom: 20px;
   }
   .navbar {
       padding-top: 15px;
@@ -82,7 +81,7 @@
 	  
 <!-- Footer -->
 <footer class="container-fluid bg-4 text-center">
-  <p>Pizza Pizzeria - Made By <a href="https://www.facebook.com/TechShrineCompany/">Talwinder Singh Dhillon</a></p> 
+  <p>Conestoga Pizzeria - Made By <a target='_blank' href="https://www.facebook.com/TechShrineCompany/">Talwinder Singh Dhillon</a></p> 
 </footer>
 
 </body>

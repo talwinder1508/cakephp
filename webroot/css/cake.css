@@ -560,3 +560,10 @@ div.message.hidden {
     margin-bottom: 10px;
     border-bottom: 0px;
 }
+
+.checkbox
+{
+float: right;
+padding-right: 15px;
+    display:inline;
+}

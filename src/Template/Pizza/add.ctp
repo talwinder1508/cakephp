@@ -28,7 +28,28 @@
                                 'Stuffed' => "Stuffed"]
                 ]);
 
-            echo $this->Form->input('toppings');
+            
+            
+            echo $this->Form->input('toppings', array(
+                                    'type' => 'select',
+                                    'multiple' => 'checkbox',
+                                    'options' => array(
+                                                        'Ham' =>'Ham' ,
+                                                        'Pepronni' => 'Pepronni' ,
+                                                        'Bacon' => 'Bacon',
+                                                        'Onion' => 'Onion' ,
+                                                        'Green Pepper' => 'Green Pepper',
+                                                        'Mushroom' => 'Mushroom' ,
+                                                        'Chicken' => 'Chicken' ,
+                                                        'Cilantro' => 'Cilantro',
+                                                        'Olives' => 'Olives',
+                                                        'Black Olives' => 'Black Olives',
+                                                        'Red Pepper' => 'Red Pepper',
+                                                        'Sausage' => 'Sausage',
+                                                        'PineApple' => 'PineApple',
+                                                        'Bacon Strips' => 'Bacon Strips',
+                                                        'Garlic' => 'Garlic')));        
+    
             echo $this->Form->input('delivery', 
                 ['options' => [	'Delivery' => 'Delivery', 
 							'Pickup' => 'Pickup']

@@ -52,28 +52,28 @@ class PizzaTable extends Table
             ->notEmpty('email');
 
         $validator
-            ->allowEmpty('telephone');
+            ->notEmpty('telephone');
 
         $validator
-            ->allowEmpty('address');
+            ->notEmpty('address');
 
         $validator
-            ->allowEmpty('city');
+            ->notEmpty('city');
 
         $validator
-            ->allowEmpty('province');
+            ->notEmpty('province');
 
         $validator
-            ->allowEmpty('pizzasize');
+            ->notEmpty('pizzasize');
 
         $validator
-            ->allowEmpty('crusttype');
+            ->notEmpty('crusttype');
 
         $validator
-            ->allowEmpty('toppings');
+            ->notEmpty('toppings');
 
         $validator
-            ->allowEmpty('delivery');
+            ->notEmpty('delivery');
 
         return $validator;
     }
@@ -88,6 +88,7 @@ class PizzaTable extends Table
     public function buildRules(RulesChecker $rules)
     {
         $rules->add($rules->isUnique(['email']));
+        
         return $rules;
     }
 }

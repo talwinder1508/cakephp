@@ -476,3 +476,81 @@ Stack Trace:
 #2 {main}
 
 
+2015-11-10 06:42:02 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Default could not be found.
+Exception Attributes: array (
+  'class' => 'Default',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp/default
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-11-10 06:54:32 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Localhost could not be found.
+Exception Attributes: array (
+  'class' => 'Localhost',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp/localhost/cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-11-10 07:20:33 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Bird.jpg could not be found.
+Exception Attributes: array (
+  'class' => 'Bird.jpg',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp/bird.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-11-10 07:23:36 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Localhost could not be found.
+Exception Attributes: array (
+  'class' => 'Localhost',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp/localhost/cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-11-10 07:30:05 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Bird.jpg could not be found.
+Exception Attributes: array (
+  'class' => 'Bird.jpg',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp/bird.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-11-10 07:36:16 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Bird.jpg could not be found.
+Exception Attributes: array (
+  'class' => 'Bird.jpg',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp/bird.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
